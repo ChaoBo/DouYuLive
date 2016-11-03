@@ -16,6 +16,12 @@
 		E5AEE4AF1DCB866A00E80D04 /* Facous.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AEE4AD1DCB866A00E80D04 /* Facous.storyboard */; };
 		E5AEE4B21DCB86A000E80D04 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AEE4B11DCB86A000E80D04 /* Home.storyboard */; };
 		E5AEE4B41DCB870A00E80D04 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AEE4B31DCB870A00E80D04 /* Profile.storyboard */; };
+		E5AEE4B61DCB94C800E80D04 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEE4B51DCB94C800E80D04 /* MainViewController.swift */; };
+		E5AEE4B81DCB955B00E80D04 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEE4B71DCB955B00E80D04 /* BaseViewController.swift */; };
+		E5AEE4BA1DCB95CF00E80D04 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEE4B91DCB95CF00E80D04 /* HomeViewController.swift */; };
+		E5AEE4BC1DCB95DE00E80D04 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEE4BB1DCB95DE00E80D04 /* LiveViewController.swift */; };
+		E5AEE4BE1DCB95EC00E80D04 /* FacousViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEE4BD1DCB95EC00E80D04 /* FacousViewController.swift */; };
+		E5AEE4C01DCB95FB00E80D04 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEE4BF1DCB95FB00E80D04 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +36,12 @@
 		E5AEE4AD1DCB866A00E80D04 /* Facous.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Facous.storyboard; sourceTree = "<group>"; };
 		E5AEE4B11DCB86A000E80D04 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = DouYuLive/Classes/Home/Home.storyboard; sourceTree = SOURCE_ROOT; };
 		E5AEE4B31DCB870A00E80D04 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = DouYuLive/Classes/Profile/Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		E5AEE4B51DCB94C800E80D04 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = DouYuLive/Classes/Profile/MainViewController.swift; sourceTree = SOURCE_ROOT; };
+		E5AEE4B71DCB955B00E80D04 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E5AEE4B91DCB95CF00E80D04 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E5AEE4BB1DCB95DE00E80D04 /* LiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		E5AEE4BD1DCB95EC00E80D04 /* FacousViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacousViewController.swift; sourceTree = "<group>"; };
+		E5AEE4BF1DCB95FB00E80D04 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				E5AEE4B11DCB86A000E80D04 /* Home.storyboard */,
+				E5AEE4B91DCB95CF00E80D04 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -97,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				E5AEE4A81DCB85E200E80D04 /* Live.storyboard */,
+				E5AEE4BB1DCB95DE00E80D04 /* LiveViewController.swift */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -105,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				E5AEE48A1DCA5A7800E80D04 /* Main.storyboard */,
+				E5AEE4B51DCB94C800E80D04 /* MainViewController.swift */,
 			);
 			name = Main;
 			path = Mian;
@@ -114,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				E5AEE4B31DCB870A00E80D04 /* Profile.storyboard */,
+				E5AEE4BF1DCB95FB00E80D04 /* ProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -121,6 +137,7 @@
 		E5AEE4A11DCA714600E80D04 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				E5AEE4B71DCB955B00E80D04 /* BaseViewController.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -129,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				E5AEE4AD1DCB866A00E80D04 /* Facous.storyboard */,
+				E5AEE4BD1DCB95EC00E80D04 /* FacousViewController.swift */,
 			);
 			path = Facous;
 			sourceTree = "<group>";
@@ -211,6 +229,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5AEE4871DCA5A7800E80D04 /* AppDelegate.swift in Sources */,
+				E5AEE4B61DCB94C800E80D04 /* MainViewController.swift in Sources */,
+				E5AEE4B81DCB955B00E80D04 /* BaseViewController.swift in Sources */,
+				E5AEE4BE1DCB95EC00E80D04 /* FacousViewController.swift in Sources */,
+				E5AEE4C01DCB95FB00E80D04 /* ProfileViewController.swift in Sources */,
+				E5AEE4BA1DCB95CF00E80D04 /* HomeViewController.swift in Sources */,
+				E5AEE4BC1DCB95DE00E80D04 /* LiveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

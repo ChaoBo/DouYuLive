@@ -5,65 +5,19 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Main View Controller-->
         <scene sceneID="7OK-hc-Oq1">
             <objects>
-                <tabBarController id="Byw-4T-puH" sceneMemberID="viewController">
+                <tabBarController id="Byw-4T-puH" customClass="MainViewController" customModule="DouYuLive" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="scY-pz-KAh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
-                    <connections>
-                        <segue destination="goq-eC-NVX" kind="relationship" relationship="viewControllers" id="EDU-ct-2sp"/>
-                        <segue destination="obf-Ty-dXW" kind="relationship" relationship="viewControllers" id="Lnn-89-dKC"/>
-                        <segue destination="rd4-SV-NKz" kind="relationship" relationship="viewControllers" id="qwr-s6-ScU"/>
-                        <segue destination="UFe-Eb-hBn" kind="relationship" relationship="viewControllers" id="KF2-LX-Wib"/>
-                    </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KGC-zc-g1D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-970" y="351"/>
-        </scene>
-        <!--Home-->
-        <scene sceneID="mb7-bk-eTj">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Home" id="goq-eC-NVX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="JS0-OA-ytw"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xQ8-Oc-3e2" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-174" y="147"/>
-        </scene>
-        <!--Live-->
-        <scene sceneID="l8t-m0-8kI">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Live" id="obf-Ty-dXW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="6wc-cp-npD"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hZf-e4-zqx" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-174" y="248"/>
-        </scene>
-        <!--Facous-->
-        <scene sceneID="LiE-G3-Lxg">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Facous" id="rd4-SV-NKz" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Zbd-fb-L6m"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PIx-ct-h3I" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-159" y="350"/>
-        </scene>
-        <!--Profile-->
-        <scene sceneID="lzy-Qc-hxR">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Profile" id="UFe-Eb-hBn" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="rba-iw-qhG"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="e0B-AL-bUg" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-157" y="509"/>
+            <point key="canvasLocation" x="-746" y="412"/>
         </scene>
     </scenes>
 </document>
