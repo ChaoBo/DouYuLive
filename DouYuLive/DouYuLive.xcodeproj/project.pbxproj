@@ -10,7 +10,12 @@
 		E5AEE4871DCA5A7800E80D04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEE4861DCA5A7800E80D04 /* AppDelegate.swift */; };
 		E5AEE48C1DCA5A7800E80D04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AEE48A1DCA5A7800E80D04 /* Main.storyboard */; };
 		E5AEE4911DCA5A7800E80D04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AEE48F1DCA5A7800E80D04 /* LaunchScreen.storyboard */; };
-		E5AEE49B1DCA6AA400E80D04 /* Resource.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5AEE49A1DCA6AA400E80D04 /* Resource.xcassets */; };
+		E5AEE4A51DCB81C100E80D04 /* Resource.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5AEE4A41DCB81C100E80D04 /* Resource.xcassets */; };
+		E5AEE4A91DCB85E200E80D04 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AEE4A81DCB85E200E80D04 /* Live.storyboard */; };
+		E5AEE4AB1DCB865D00E80D04 /* Facous.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AEE4AA1DCB865D00E80D04 /* Facous.storyboard */; };
+		E5AEE4AF1DCB866A00E80D04 /* Facous.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AEE4AD1DCB866A00E80D04 /* Facous.storyboard */; };
+		E5AEE4B21DCB86A000E80D04 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AEE4B11DCB86A000E80D04 /* Home.storyboard */; };
+		E5AEE4B41DCB870A00E80D04 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AEE4B31DCB870A00E80D04 /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,7 +24,12 @@
 		E5AEE48B1DCA5A7800E80D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5AEE4901DCA5A7800E80D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5AEE4921DCA5A7800E80D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5AEE49A1DCA6AA400E80D04 /* Resource.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resource.xcassets; sourceTree = "<group>"; };
+		E5AEE4A41DCB81C100E80D04 /* Resource.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resource.xcassets; sourceTree = "<group>"; };
+		E5AEE4A81DCB85E200E80D04 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		E5AEE4AA1DCB865D00E80D04 /* Facous.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Facous.storyboard; path = Classes/Facous/Facous.storyboard; sourceTree = "<group>"; };
+		E5AEE4AD1DCB866A00E80D04 /* Facous.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Facous.storyboard; sourceTree = "<group>"; };
+		E5AEE4B11DCB86A000E80D04 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = DouYuLive/Classes/Home/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		E5AEE4B31DCB870A00E80D04 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = DouYuLive/Classes/Profile/Profile.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +64,10 @@
 			children = (
 				E5AEE49C1DCA6C4E00E80D04 /* Classes */,
 				E5AEE4861DCA5A7800E80D04 /* AppDelegate.swift */,
-				E5AEE48A1DCA5A7800E80D04 /* Main.storyboard */,
+				E5AEE4AA1DCB865D00E80D04 /* Facous.storyboard */,
 				E5AEE48F1DCA5A7800E80D04 /* LaunchScreen.storyboard */,
 				E5AEE4921DCA5A7800E80D04 /* Info.plist */,
-				E5AEE49A1DCA6AA400E80D04 /* Resource.xcassets */,
+				E5AEE4A41DCB81C100E80D04 /* Resource.xcassets */,
 			);
 			path = DouYuLive;
 			sourceTree = "<group>";
@@ -65,9 +75,10 @@
 		E5AEE49C1DCA6C4E00E80D04 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E5AEE49F1DCA714600E80D04 /* Mian */,
+				E5AEE49F1DCA714600E80D04 /* Main */,
 				E5AEE49D1DCA714600E80D04 /* Home */,
 				E5AEE49E1DCA714600E80D04 /* Live */,
+				E5AEE4AC1DCB866A00E80D04 /* Facous */,
 				E5AEE4A01DCA714600E80D04 /* Profile */,
 				E5AEE4A11DCA714600E80D04 /* Tools */,
 			);
@@ -77,6 +88,7 @@
 		E5AEE49D1DCA714600E80D04 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E5AEE4B11DCB86A000E80D04 /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -84,20 +96,24 @@
 		E5AEE49E1DCA714600E80D04 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				E5AEE4A81DCB85E200E80D04 /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
 		};
-		E5AEE49F1DCA714600E80D04 /* Mian */ = {
+		E5AEE49F1DCA714600E80D04 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				E5AEE48A1DCA5A7800E80D04 /* Main.storyboard */,
 			);
+			name = Main;
 			path = Mian;
 			sourceTree = "<group>";
 		};
 		E5AEE4A01DCA714600E80D04 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				E5AEE4B31DCB870A00E80D04 /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -107,6 +123,14 @@
 			children = (
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		E5AEE4AC1DCB866A00E80D04 /* Facous */ = {
+			isa = PBXGroup;
+			children = (
+				E5AEE4AD1DCB866A00E80D04 /* Facous.storyboard */,
+			);
+			path = Facous;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,7 +194,12 @@
 			files = (
 				E5AEE4911DCA5A7800E80D04 /* LaunchScreen.storyboard in Resources */,
 				E5AEE48C1DCA5A7800E80D04 /* Main.storyboard in Resources */,
-				E5AEE49B1DCA6AA400E80D04 /* Resource.xcassets in Resources */,
+				E5AEE4B41DCB870A00E80D04 /* Profile.storyboard in Resources */,
+				E5AEE4B21DCB86A000E80D04 /* Home.storyboard in Resources */,
+				E5AEE4A51DCB81C100E80D04 /* Resource.xcassets in Resources */,
+				E5AEE4AB1DCB865D00E80D04 /* Facous.storyboard in Resources */,
+				E5AEE4AF1DCB866A00E80D04 /* Facous.storyboard in Resources */,
+				E5AEE4A91DCB85E200E80D04 /* Live.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +223,7 @@
 				E5AEE48B1DCA5A7800E80D04 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		E5AEE48F1DCA5A7800E80D04 /* LaunchScreen.storyboard */ = {
